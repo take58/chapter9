@@ -67,19 +67,24 @@ footer{
 }
 
 @media screen and (max-width:768px){
+  header{
+    margin-bottom:30px;
+  }
+
   main{
-    width:90%;
+    width:100%;
+    margin:0 auto;
     display:flex;
     flex-flow:column;
     align-items:center;
   }
-  
+
   .step-box{
     width:90%;
-    margin:20px;
+    margin:20px 0 0 0;
   }
-  
-  .step-box:last-child{
-    margin:20px;
+
+  footer{
+    margin-top:50px;
   }
 }
